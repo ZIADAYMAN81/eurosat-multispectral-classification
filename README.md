@@ -1,5 +1,7 @@
 # EuroSAT Land-Cover Classification from 13-Band Satellite Images
 
+[![tests](https://github.com/ZIADAYMAN81/eurosat-multispectral-classification/actions/workflows/tests.yml/badge.svg)](https://github.com/ZIADAYMAN81/eurosat-multispectral-classification/actions/workflows/tests.yml)
+
 > Deep Learning coursework, The British University in Egypt, 2025. Author: Ziad Ayman.
 
 Classifies **Sentinel-2 satellite images** into 10 land-cover types (crops, forest, highway, industrial, residential, river, sea and more) using **all 13 spectral bands**, not just red, green and blue. It compares the fully connected deep network explored in the coursework with a compact convolutional network added in this version, both in **PyTorch**.
@@ -61,3 +63,6 @@ tests/
 
 ## Tech stack
 Python · PyTorch · NumPy · pandas · scikit-learn · rasterio · pytest
+
+## License
+MIT, see [LICENSE](LICENSE).
